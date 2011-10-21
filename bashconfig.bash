@@ -15,8 +15,10 @@ alias cd..='cd ..'
 
 alias gs='git status'
 alias ga='git add'
-alias gr='git remove'
+alias gr='git rm'
 alias gc='git commit'
+alias gpull='git pull'
+alias gpush='git push'
 
 ######################################################################
 #   BASH PROMPT
