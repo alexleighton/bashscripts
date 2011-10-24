@@ -52,7 +52,7 @@ function setPS1 {
 
    TERMLEN=`tput cols`
    INTRO=┌─
-   DIR=${PWD}
+   DIR=${PWD/~/'~'}
 
    GIT=$(__git_ps1 "%s")
 
