@@ -43,10 +43,6 @@ function str_repeat() {
    return 0;
 }
 
-function blah {
-   echo "BLAH";
-}
-
 function setPS1 {
    EXIT_STATUS="$?" # Must be up here or you get exit status of other commands
 
